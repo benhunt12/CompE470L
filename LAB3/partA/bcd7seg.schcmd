@@ -1,0 +1,27 @@
+select figure at 1263 1683 8 -wires -sn=1
+select figure at 2408 1535 8 -wires -sn=1
+move wire at 2416 1536 2784 1536 to 2784 1536 1200 1536 -breakConn -sn=1
+select figure at 1602 1670 8 -wires -sn=1
+add autowire 1056 1712 1376 1712 8 -autobustap -sn=1
+add autowire 1200 1536 1200 1712 8 -autobustap -sn=1
+select figure at 1293 1717 8 -wires -sn=1
+delete selection -sn=1
+select figure at 1060 1713 8 -wires -sn=1
+move wire at 1056 1712 1200 1712 to 1200 1712 1200 1968 -breakConn -sn=1
+select figure at 3421 1535 8 -wires -sn=1
+move wire at 3168 1536 3424 1536 to 3168 1536 4288 1536 -breakConn -sn=1
+select figure at 4379 1878 8 -wires -sn=1
+select figure at 1196 1967 8 -wires -sn=1
+move wire at 1200 1536 1200 1968 to 1200 1536 1200 1824 -breakConn -sn=1
+move wire at 1200 1536 1200 1824 to 1200 1536 1200 1552 -breakConn -sn=1
+move wire at 1200 1536 1200 1552 to 1200 1536 1152 1536 -breakConn -sn=1
+select figure at 1170 1628 8 -wires -sn=1
+add autowire 976 1776 1376 1776 8 -autobustap -sn=1
+add autowire 1376 1792 1376 2048 8 -autobustap -sn=1
+undo
+add instance obuf 1552 1808 R0 -sn=1
+select figure at 1149 1768 8 -wires -sn=1
+delete selection -sn=1
+select figure at 1552 1776 8 -wires -sn=1
+move instance at 1552 1808 to 1312 1760 R0 -keepConn -sn=1
+select figure at 1950 1772 8 -wires -sn=1

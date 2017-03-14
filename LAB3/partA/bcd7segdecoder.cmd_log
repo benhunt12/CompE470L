@@ -1,0 +1,2 @@
+vhdtdtfi -lib work bcd7segdecoder.vhd -prj bcd7seg -o bcd7segdecoder.spl -module bcd7segdecoder -template C:/Xilinx/13.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bcd7segdecoder.spl C:/Ken/doc/SDSU/CompE270/ISE13projects/bcd7seg/bcd7segdecoder.sym 

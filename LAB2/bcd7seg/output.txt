@@ -1,0 +1,11 @@
+Storage Target: SPI Flash Single FPGA
+4M
+FF
+partaprom
+C:/Users/benja/Desktop/parta
+
+MCS
+No
+
+MCS
+No

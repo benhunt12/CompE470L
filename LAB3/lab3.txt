@@ -1,0 +1,32 @@
+module ioTest (input [7:0] IO_DSW,
+					input [3:0] IO_PB,
+					output reg [7:0] IO_LED);
+
+reg [3:0] _and, _or, _nand, _nor;
+
+
+
+always @* begin
+	_and = IO_DSW[7:4] & IO_DSW[3:0];
+	_or = IO_DSW[7:4] | IO_DSW[3:0];
+	_nand = ~(IO_DSW[7:4] & IO_DSW[3:0]);
+	_nor = ~(IO_DSW[7:4] | IO_DSW[3:0]);
+end
+
+always @* begin
+	if (IO_PB[0] == 1)
+		IO_LED <= _and;
+	else if (IO_PB[1] == 1)
+		IO_LED <= _or;	
+	else if (IO_PB[2] == 1)
+		IO_LED <= _nand;
+	else if (IO_PB[3] == 1)
+		IO_LED <= _nor;
+	else
+		IO_LED <= 4'b1111;
+end
+
+endmodule
+									
+							
+	

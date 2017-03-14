@@ -1,0 +1,8 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "In4" SLEW = SLOW;
+NET "In1" PULLUP;
+NET "In2" PULLDOWN;
+NET "In3" PULLUP;
+NET "In4" PULLDOWN;

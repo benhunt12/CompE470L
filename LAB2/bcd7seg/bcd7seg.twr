@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf
+DevIO.ucf
+
+Design file:              bcd7seg.ncd
+Physical constraint file: bcd7seg.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CLOCK8MHZ      |P6_0N0         |    7.582|
+CLOCK8MHZ      |P6_0P0         |    7.244|
+PBS1           |LED1           |    8.989|
+PBS1           |sega           |    9.338|
+PBS1           |segb           |    9.305|
+PBS1           |segc           |    9.063|
+PBS1           |segd           |    9.595|
+PBS1           |sege           |    9.237|
+PBS1           |segf           |    9.117|
+PBS1           |segg           |    9.778|
+PBS2           |LED2           |    9.428|
+PBS2           |sega           |    9.165|
+PBS2           |segb           |    9.685|
+PBS2           |segc           |    9.183|
+PBS2           |segd           |    9.422|
+PBS2           |sege           |    9.069|
+PBS2           |segf           |    9.237|
+PBS2           |segg           |    9.610|
+PBS3           |LED3           |    9.053|
+PBS3           |sega           |    9.175|
+PBS3           |segb           |    9.414|
+PBS3           |segc           |    9.315|
+PBS3           |segd           |    9.432|
+PBS3           |sege           |    8.950|
+PBS3           |segf           |    9.369|
+PBS3           |segg           |    9.491|
+PBS4           |LED4           |    8.836|
+PBS4           |sega           |    9.059|
+PBS4           |segb           |    9.475|
+PBS4           |segc           |    9.031|
+PBS4           |segd           |    9.316|
+PBS4           |sege           |    8.896|
+PBS4           |segf           |    9.085|
+PBS4           |segg           |    9.437|
+S5_1           |LEDX1          |    7.257|
+S5_2           |LEDX2          |    7.006|
+S5_3           |LEDX3          |    7.481|
+S5_4           |LEDX4          |    7.288|
+S5_5           |LEDX5          |    7.207|
+S5_6           |LEDX6          |    7.367|
+S5_7           |LEDX7          |    7.771|
+S5_8           |LEDX8          |    7.395|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Feb 01 10:09:32 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 242 MB
+
+
+

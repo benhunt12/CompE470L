@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/Ken/doc/SDSU/CompE270/ISE13projects/bcd7seg/bcd7seg.xst" -ofn "C:/Ken/doc/SDSU/CompE270/ISE13projects/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 
+xst -intstyle ise -ifn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.xst" -ofn "C:/Users/benja/Desktop/bcd7seg/bcd7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DevIO.ucf -p xc6slx9-tqg144-3 bcd7seg.ngc bcd7seg.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd7seg_map.ncd bcd7seg.ngd bcd7seg.pcf 
+par -w -intstyle ise -ol high -mt off bcd7seg_map.ncd bcd7seg.ncd bcd7seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd7seg.twx bcd7seg.ncd -o bcd7seg.twr bcd7seg.pcf -ucf DevIO.ucf 
+bitgen -intstyle ise -f bcd7seg.ut bcd7seg.ncd 

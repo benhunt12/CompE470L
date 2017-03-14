@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\benja\Desktop\patD//partDprom -s 512 -u 0000 C:/Users/benja/Desktop/patD/iotest.bit -spi 
+
+PROM C:\Users\benja\Desktop\patD\partDprom.prm map: Tue Feb 07 16:32:38 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 02cfdfba
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Feb 07 16:32:07 2017 C:/Users/benja/Desktop/patD/iotest.bit

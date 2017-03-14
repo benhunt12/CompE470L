@@ -1,0 +1,3 @@
+verilog work "bcd7segdecoder.v"
+verilog work "bcd7seg.vf"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

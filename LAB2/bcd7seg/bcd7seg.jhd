@@ -1,0 +1,3 @@
+MODULE bcd7seg
+	SUBMODULE bcd7segdecoder
+		INSTANCE XLXI_61

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator O.40d
+# Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION O.40d
+DATE            03/11/2012 - 21:42
+SOURCE          C:\Ken\doc\SDSU\CompE270\ISE13projects\bcd7seg\bcd7seg.mcs
+DEVICE          512K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x02CF762F
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "C:/Ken/doc/SDSU/CompE270/ISE13projects/bcd7seg/bcd7seg.bit" 6slx9tqg144

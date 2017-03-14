@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ioTest.twx ioTest.ncd -o ioTest.twr ioTest.pcf -ucf
+board.ucf
+
+Design file:              ioTest.ncd
+Physical constraint file: ioTest.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+IO_DSW<0>      |IO_SSEG<0>     |   11.210|
+IO_DSW<0>      |IO_SSEG<1>     |   11.680|
+IO_DSW<0>      |IO_SSEG<2>     |   10.814|
+IO_DSW<0>      |IO_SSEG<3>     |   10.676|
+IO_DSW<0>      |IO_SSEG<4>     |   10.937|
+IO_DSW<0>      |IO_SSEG<5>     |   11.006|
+IO_DSW<0>      |IO_SSEG<6>     |   11.667|
+IO_DSW<1>      |IO_SSEG<0>     |   11.254|
+IO_DSW<1>      |IO_SSEG<1>     |   11.724|
+IO_DSW<1>      |IO_SSEG<2>     |   10.858|
+IO_DSW<1>      |IO_SSEG<3>     |   10.720|
+IO_DSW<1>      |IO_SSEG<4>     |   11.065|
+IO_DSW<1>      |IO_SSEG<5>     |   11.172|
+IO_DSW<1>      |IO_SSEG<6>     |   11.711|
+IO_DSW<2>      |IO_SSEG<0>     |   11.056|
+IO_DSW<2>      |IO_SSEG<1>     |   11.526|
+IO_DSW<2>      |IO_SSEG<2>     |   10.660|
+IO_DSW<2>      |IO_SSEG<3>     |   10.522|
+IO_DSW<2>      |IO_SSEG<4>     |   10.783|
+IO_DSW<2>      |IO_SSEG<5>     |   10.852|
+IO_DSW<2>      |IO_SSEG<6>     |   11.513|
+IO_DSW<3>      |IO_SSEG<0>     |   10.478|
+IO_DSW<3>      |IO_SSEG<1>     |   10.948|
+IO_DSW<3>      |IO_SSEG<2>     |   10.082|
+IO_DSW<3>      |IO_SSEG<3>     |    9.944|
+IO_DSW<3>      |IO_SSEG<4>     |   10.205|
+IO_DSW<3>      |IO_SSEG<5>     |   10.274|
+IO_DSW<3>      |IO_SSEG<6>     |   10.935|
+IO_DSW<4>      |IO_SSEG<0>     |   11.056|
+IO_DSW<4>      |IO_SSEG<1>     |   11.526|
+IO_DSW<4>      |IO_SSEG<2>     |   10.660|
+IO_DSW<4>      |IO_SSEG<3>     |   10.522|
+IO_DSW<4>      |IO_SSEG<4>     |   10.783|
+IO_DSW<4>      |IO_SSEG<5>     |   10.852|
+IO_DSW<4>      |IO_SSEG<6>     |   11.513|
+IO_DSW<5>      |IO_SSEG<0>     |   10.800|
+IO_DSW<5>      |IO_SSEG<1>     |   11.270|
+IO_DSW<5>      |IO_SSEG<2>     |   10.404|
+IO_DSW<5>      |IO_SSEG<3>     |   10.266|
+IO_DSW<5>      |IO_SSEG<4>     |   10.527|
+IO_DSW<5>      |IO_SSEG<5>     |   10.596|
+IO_DSW<5>      |IO_SSEG<6>     |   11.257|
+IO_DSW<6>      |IO_SSEG<0>     |   11.020|
+IO_DSW<6>      |IO_SSEG<1>     |   11.490|
+IO_DSW<6>      |IO_SSEG<2>     |   10.624|
+IO_DSW<6>      |IO_SSEG<3>     |   10.486|
+IO_DSW<6>      |IO_SSEG<4>     |   10.747|
+IO_DSW<6>      |IO_SSEG<5>     |   10.816|
+IO_DSW<6>      |IO_SSEG<6>     |   11.477|
+IO_DSW<7>      |IO_SSEG<0>     |   10.280|
+IO_DSW<7>      |IO_SSEG<1>     |   10.750|
+IO_DSW<7>      |IO_SSEG<2>     |    9.884|
+IO_DSW<7>      |IO_SSEG<3>     |    9.746|
+IO_DSW<7>      |IO_SSEG<4>     |   10.007|
+IO_DSW<7>      |IO_SSEG<5>     |   10.076|
+IO_DSW<7>      |IO_SSEG<6>     |   10.737|
+IO_PB<0>       |IO_SSEGD<3>    |    5.821|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Feb 08 10:24:12 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 240 MB
+
+
+

@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+4M
+FF
+partCprom
+C:/Users/benja/Desktop/partC
+
+MCS
+No
